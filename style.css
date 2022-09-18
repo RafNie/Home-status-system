@@ -1,0 +1,91 @@
+BODY
+{
+  background-color:#222222;
+}
+
+#page_bg
+{
+  text-align:center;
+  padding:2%
+}
+
+#counter
+{
+  position: right;
+  text-align:center;
+  margin:1px 1px;
+  padding:2px;
+  display:inline-block;
+}
+
+#status
+{
+  color:black;
+  background-color:lightgreen;
+  letter-spacing:3px;
+  font-size:x-large;
+  font-weight:bold;
+  margin:1%;
+  padding:2%;
+  border:solid;
+  border-radius:15px
+}
+
+#header
+{
+  background-color:black;
+  color:aqua;
+  letter-spacing:3px;
+  font-size:x-large;
+  font-weight:bold;
+  margin:1%;
+  padding:2%;
+}
+
+#menu
+{
+  background-color:#bbbbbb;
+  font-weight:bold;
+  color:black;
+  text-align:left;
+  margin:1%;
+  padding:2px; 
+}
+
+.menu_item
+{
+  background-color:#222222;
+  color:white;
+  text-align:center;
+  width:133px;
+  margin:1px 1px;
+  padding:2px;
+  display:inline-block;
+}
+
+.menu_item:hover
+{
+  background-color:teal;
+}
+
+#page
+{
+  background-color:white;
+  color:black;
+  margin:1%;
+  padding:2%; 
+}
+
+#footer
+{
+  background-color:#bbbbbb;
+  color:teal;
+  font-size:small;
+  margin:1%;
+  padding:1px; 
+}
+
+.weather
+{
+  font-size:large;
+}
