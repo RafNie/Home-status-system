@@ -2,20 +2,19 @@
 <html lang="">
   <head>
     <title>Czujnik</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="static/style.css" rel="stylesheet" type="text/css">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width"/>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
   </head>
-  <body>
+  <body onload="checkResult()">
    <div id="page_bg">
     <div id="header">Dom</div>
     <div id="menu">
-      <a href="status"><div class="menu_item">Stan drzwi</div></a>
-      <a href="info"><div class="menu_item">Info</div></a>
+      <a href="index"><div class="menu_item">Stan drzwi</div></a>
     </div>
     <div id="page">
-      <div id="status">#PP</div>
+      <div id="status"></div>
     </div>
     <div id="footer">
     <b>
